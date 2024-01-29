@@ -1,4 +1,0 @@
-[submodule "ggfields"]
-	path = ggfields
-	url = https://github.com/pepijn-devries/ggfields.git
-	branch = gh-pages
