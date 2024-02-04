@@ -1,0 +1,16 @@
+Package: website
+Title: Personal website
+Version: 0.0.0
+Authors@R: c(person("Pepijn", "de Vries", role = c("aut", "cre", "dtc"),
+    email = "pepijn.devries@outlook.com",
+    comment = c(ORCID = "0000-0002-7961-6646")))
+Author:
+    Pepijn de Vries [aut, cre, dtc] (0000-0002-7961-6646)
+Maintainer: Pepijn de Vries <pepijn.devries@outlook.com>
+Description: My personal website setup as an R package. It is done so
+    in order to setup the pages as RMarkdown documents
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+URL: https://pepijn-devries.github.io/
