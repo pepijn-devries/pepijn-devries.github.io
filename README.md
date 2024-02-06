@@ -1,4 +1,10 @@
 
+<div class="pkgdown-hide">
+
+hello
+
+</div>
+
 # R packages by Pepijn
 
 - [CopernicusMarine](CopernicusMarine)

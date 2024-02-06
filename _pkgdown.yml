@@ -1,4 +1,26 @@
 url: https://pepijn-devries.github.io/
+title: "Pepijn's persional page"
 template:
   bootstrap: 5
-
+home:
+  sidebar: FALSE
+navbar:
+  structure:
+    left:  [r_packages]
+    right: [search]
+  components:
+    r_packages:
+      text: R packages
+      menu:
+      - text: Scientific data
+      - text: Copernicus Marine
+        href: CopernicusMarine/
+      - text: ECOTOXr
+        href: ECOTOXr/
+      - text: Graphics
+      - text: ggfields
+        href: ggfields/
+footer:
+  structure:
+    left: 
+    right: 
