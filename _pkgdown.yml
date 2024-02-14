@@ -20,6 +20,9 @@ navbar:
       - text: Graphics
       - text: ggfields
         href: ggfields/
+      - text: Nostalgia
+      - text: ProTrackR
+        href: ProTrackR/
 footer:
   structure:
     left: 
