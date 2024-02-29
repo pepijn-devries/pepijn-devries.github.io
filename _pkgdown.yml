@@ -20,7 +20,11 @@ navbar:
       - text: Graphics
       - text: ggfields
         href: ggfields/
-      - text: Nostalgia
+      - text: ggsankeyfier
+        href: ggsankeyfier/
+      - text: Retro-computing
+      - text: AmigaFFH
+        href: AmigaFFH/
       - text: ProTrackR
         href: ProTrackR/
 footer:
