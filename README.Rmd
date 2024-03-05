@@ -22,5 +22,6 @@ This site is still under construction. Meanwhile check out my R packages.
    * [ggfields](ggfields)
    * [ggsankeyfier](ggsankeyfier)
  * Retro-computing
+   * [adfExplorer](adfExplorer)
    * [AmigaFFH](AmigaFFH)
    * [ProTrackR](ProTrackR)

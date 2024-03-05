@@ -11,5 +11,6 @@ packages.
   - [ggfields](ggfields)
   - [ggsankeyfier](ggsankeyfier)
 - Retro-computing
+  - [adfExplorer](adfExplorer)
   - [AmigaFFH](AmigaFFH)
   - [ProTrackR](ProTrackR)

@@ -23,6 +23,8 @@ navbar:
       - text: ggsankeyfier
         href: ggsankeyfier/
       - text: Retro-computing
+      - text: adfExplorer
+        href: adfExplorer/
       - text: AmigaFFH
         href: AmigaFFH/
       - text: ProTrackR
