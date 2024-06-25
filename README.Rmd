@@ -1,6 +1,10 @@
 ---
-output: github_document
+output:
+  github_document:
+    df_print: paged
 ---
+
+## R packages by Pepijn
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -11,17 +15,24 @@ knitr::opts_chunk$set(
 )
 ```
 
-# R packages by Pepijn
-
 This site is still under construction. Meanwhile check out my R packages.
 
- * Scientific data:
-   * [CopernicusMarine](CopernicusMarine)
-   * [ECOTOXr](ECOTOXr)
- * Data visualisation
-   * [ggfields](ggfields)
-   * [ggsankeyfier](ggsankeyfier)
- * Retro-computing
-   * [adfExplorer](adfExplorer)
-   * [AmigaFFH](AmigaFFH)
-   * [ProTrackR](ProTrackR)
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
+library(httr2)
+library(jsonlite)
+library(dplyr)
+
+packages <-
+  "https://raw.githubusercontent.com/pepijn-devries/pepijn-devries.r-universe.dev/main/packages.json" |>
+    request() |> req_perform() |> resp_body_string() |> fromJSON() |>
+  select("package", "tags") |>
+  mutate(
+    package = paste0("<a href=\"https://pepijn-devries.github.io/", .data$package, "/\">",
+                     .data$package, "</a>"),
+    tags = lapply(.data$tags, paste0, collapse = ", ") |> unlist()
+  ) |>
+  dplyr::arrange(.data$tags, .data$package)
+
+packages |> as.data.frame() |> knitr::kable("html", escape = FALSE)
+```
+

@@ -9,6 +9,10 @@ Author:
 Maintainer: Pepijn de Vries <pepijn.devries@outlook.com>
 Description: My personal website setup as an R package. It is done so
     in order to setup the pages as RMarkdown documents
+Suggests:
+    dplyr,
+    httr2,
+    jsonlite
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
