@@ -18,6 +18,30 @@ tags
 <tbody>
 <tr>
 <td style="text-align:left;">
+<a href="https://pepijn-devries.github.io/AmigaFFH/">AmigaFFH</a>
+</td>
+<td style="text-align:left;">
+Amiga, retro
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="https://pepijn-devries.github.io/ProTrackR/">ProTrackR</a>
+</td>
+<td style="text-align:left;">
+Amiga, retro
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="https://pepijn-devries.github.io/adfExplorer/">adfExplorer</a>
+</td>
+<td style="text-align:left;">
+Amiga, retro
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 <a href="https://pepijn-devries.github.io/CopernicusMarine/">CopernicusMarine</a>
 </td>
 <td style="text-align:left;">
@@ -34,30 +58,6 @@ data
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="https://pepijn-devries.github.io/AmigaFFH/">AmigaFFH</a>
-</td>
-<td style="text-align:left;">
-retro, Amiga
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://pepijn-devries.github.io/ProTrackR/">ProTrackR</a>
-</td>
-<td style="text-align:left;">
-retro, Amiga
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://pepijn-devries.github.io/adfExplorer/">adfExplorer</a>
-</td>
-<td style="text-align:left;">
-retro, Amiga
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 <a href="https://pepijn-devries.github.io/csquares/">csquares</a>
 </td>
 <td style="text-align:left;">
@@ -66,18 +66,18 @@ spatial
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="https://pepijn-devries.github.io/ggsankeyfier/">ggsankeyfier</a>
+<a href="https://pepijn-devries.github.io/ggfields/">ggfields</a>
 </td>
 <td style="text-align:left;">
-visualisation
+spatial, visualisation
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="https://pepijn-devries.github.io/ggfields/">ggfields</a>
+<a href="https://pepijn-devries.github.io/ggsankeyfier/">ggsankeyfier</a>
 </td>
 <td style="text-align:left;">
-visualisation, spatial
+visualisation
 </td>
 </tr>
 </tbody>

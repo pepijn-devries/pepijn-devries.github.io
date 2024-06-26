@@ -25,14 +25,35 @@ library(dplyr)
 packages <-
   "https://raw.githubusercontent.com/pepijn-devries/pepijn-devries.r-universe.dev/main/packages.json" |>
     request() |> req_perform() |> resp_body_string() |> fromJSON() |>
-  select("package", "tags") |>
   mutate(
+    package_raw = .data$package,
     package = paste0("<a href=\"https://pepijn-devries.github.io/", .data$package, "/\">",
                      .data$package, "</a>"),
-    tags = lapply(.data$tags, paste0, collapse = ", ") |> unlist()
+    tags = .data$tags |> lapply(sort) |> lapply(paste0, collapse = ", ") |> unlist()
   ) |>
   dplyr::arrange(.data$tags, .data$package)
 
-packages |> as.data.frame() |> knitr::kable("html", escape = FALSE)
+packages |> select("package", "tags") |> as.data.frame() |> knitr::kable("html", escape = FALSE)
 ```
 
+
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
+template  <- readLines("_pkgdown_template.yml")
+menu      <- grepl("[menu]", template, fixed = TRUE) |> which()
+spaces    <- gregexpr(" ", template[[menu]])[[1]] |> length()
+spaces    <- strrep(" ", spaces)
+menu_text <- cbind(
+    sprintf("%s- text: %s (%s)", spaces, packages$package_raw, packages$tags),
+    sprintf("%s  href: %s/", spaces, packages$package_raw)
+  ) |> t() |> c()
+template <-
+  c(
+    template[seq_len(menu - 1)],
+    menu_text,
+    template[(menu + 1):length(template)]
+  )
+writeLines(
+  template,
+  "_pkgdown.yml"
+)
+```

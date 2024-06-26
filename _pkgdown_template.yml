@@ -1,0 +1,19 @@
+url: https://pepijn-devries.github.io/
+title: "Pepijn's personal page"
+template:
+  bootstrap: 5
+home:
+  sidebar: FALSE
+navbar:
+  structure:
+    left:  [r_packages]
+    right: [search]
+  components:
+    r_packages:
+      text: R packages
+      menu:
+        [menu]
+footer:
+  structure:
+    left: 
+    right: 

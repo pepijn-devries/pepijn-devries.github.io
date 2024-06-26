@@ -12,23 +12,22 @@ navbar:
     r_packages:
       text: R packages
       menu:
-      - text: Scientific data
-      - text: Copernicus Marine
-        href: CopernicusMarine/
-      - text: ECOTOXr
-        href: ECOTOXr/
-      - text: Graphics
-      - text: ggfields
-        href: ggfields/
-      - text: ggsankeyfier
-        href: ggsankeyfier/
-      - text: Retro-computing
-      - text: adfExplorer
-        href: adfExplorer/
-      - text: AmigaFFH
-        href: AmigaFFH/
-      - text: ProTrackR
-        href: ProTrackR/
+        - text: AmigaFFH (Amiga, retro)
+          href: AmigaFFH/
+        - text: ProTrackR (Amiga, retro)
+          href: ProTrackR/
+        - text: adfExplorer (Amiga, retro)
+          href: adfExplorer/
+        - text: CopernicusMarine (data)
+          href: CopernicusMarine/
+        - text: ECOTOXr (data)
+          href: ECOTOXr/
+        - text: csquares (spatial)
+          href: csquares/
+        - text: ggfields (spatial, visualisation)
+          href: ggfields/
+        - text: ggsankeyfier (visualisation)
+          href: ggsankeyfier/
 footer:
   structure:
     left: 
