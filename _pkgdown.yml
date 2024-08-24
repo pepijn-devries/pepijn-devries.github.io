@@ -18,6 +18,8 @@ navbar:
           href: ProTrackR/
         - text: adfExplorer (Amiga, retro)
           href: adfExplorer/
+        - text: adfExplorer2 (Amiga, retro)
+          href: adfExplorer2/
         - text: CopernicusMarine (data)
           href: CopernicusMarine/
         - text: ECOTOXr (data)

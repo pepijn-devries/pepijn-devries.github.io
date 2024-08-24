@@ -42,6 +42,14 @@ Amiga, retro
 </tr>
 <tr>
 <td style="text-align:left;">
+<a href="https://pepijn-devries.github.io/adfExplorer2/">adfExplorer2</a>
+</td>
+<td style="text-align:left;">
+Amiga, retro
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 <a href="https://pepijn-devries.github.io/CopernicusMarine/">CopernicusMarine</a>
 </td>
 <td style="text-align:left;">
