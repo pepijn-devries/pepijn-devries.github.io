@@ -31,7 +31,7 @@ packages <-
                      .data$package, "</a>"),
     tags = .data$tags |> lapply(sort) |> lapply(paste0, collapse = ", ") |> unlist()
   ) |>
-  dplyr::arrange(.data$tags, .data$package)
+  dplyr::arrange(.data$package, .data$tags)
 
 packages |> select("package", "tags") |> as.data.frame() |> knitr::kable("html", escape = FALSE)
 ```

@@ -14,22 +14,28 @@ navbar:
       menu:
         - text: AmigaFFH (Amiga, retro)
           href: AmigaFFH/
-        - text: ProTrackR (Amiga, retro)
-          href: ProTrackR/
-        - text: adfExplorer (Amiga, retro)
-          href: adfExplorer/
-        - text: adfExplorer2 (Amiga, retro)
-          href: adfExplorer2/
         - text: CopernicusMarine (data)
           href: CopernicusMarine/
         - text: ECOTOXr (data)
           href: ECOTOXr/
+        - text: ProTrackR (Amiga, retro)
+          href: ProTrackR/
+        - text: ProTrackR2 (Amiga, retro)
+          href: ProTrackR2/
+        - text: adfExplorer (Amiga, retro)
+          href: adfExplorer/
+        - text: blosc (compression, data)
+          href: blosc/
         - text: csquares (spatial)
           href: csquares/
         - text: ggfields (spatial, visualisation)
           href: ggfields/
+        - text: gghourglass (visualisation)
+          href: gghourglass/
         - text: ggsankeyfier (visualisation)
           href: ggsankeyfier/
+        - text: openmpt (retro)
+          href: openmpt/
 footer:
   structure:
     left: 
